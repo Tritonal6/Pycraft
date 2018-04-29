@@ -105,7 +105,7 @@ def texture_coordinates(top, bottom, side):
     return result
 
 
-TEXTURE_PATH = 'BlockTextures.png'
+TEXTURE_PATH = 'textures.png'
 # Basic block textures to be expanded further later on
 GRASS = texture_coordinates((1, 0), (0, 1), (0, 0))
 SAND = texture_coordinates((1, 1), (1, 1), (1, 1))
